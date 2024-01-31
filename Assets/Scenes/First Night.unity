@@ -387,6 +387,37 @@ Transform:
   - {fileID: 2013261561}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &976222665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 976222666}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &976222666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976222665}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.02, y: -0.93, z: 0.05465428}
+  m_LocalScale: {x: 2.5737512, y: 2.9814162, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1628570064}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1628570061
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +430,7 @@ GameObject:
   - component: {fileID: 1628570063}
   - component: {fileID: 1628570065}
   - component: {fileID: 1628570066}
+  - component: {fileID: 1628570067}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Untagged
@@ -467,10 +499,11 @@ Transform:
   m_GameObject: {fileID: 1628570061}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.3157, y: -3.6776, z: 0}
+  m_LocalPosition: {x: -8.3157, y: -4.13, z: 0}
   m_LocalScale: {x: 0.38853794, y: 0.33541107, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 976222666}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1628570065
@@ -497,9 +530,9 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 1
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &1628570066
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -509,7 +542,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1628570061}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5661cd4287b2e3f4c9b617f25fd0c906, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -535,6 +568,23 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 1
+--- !u!114 &1628570067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628570061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89605e56cf686cd47ab9a8b0a199f445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1628570065}
+  groundCheck: {fileID: 976222666}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &2013261560
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +615,7 @@ Transform:
   m_GameObject: {fileID: 2013261560}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.34, y: -2.45, z: 0}
+  m_LocalPosition: {x: -4.34, y: -2.5, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
