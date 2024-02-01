@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    
+
 
     // Update is called once per frame
     void Update()
@@ -52,5 +54,14 @@ public class PlayerMovement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.name == "Circle")
+        {
+            Destroy(collision.gameObject);
+        }
+        
     }
 }

@@ -2,9 +2,9 @@
 
 === start_here ===
 You awaken from sleep with this feeling of unease surrounding you. You have this nagging feeling that you are forgetting something important, but you just can't place what it is. 
-***Shrug and head to school #choice
+***Shrug and head to school #school
 -> going_to_school
-***Look around your room #choice
+***Look around your room 
 ->look_around
 
 ===going_to_school===
@@ -17,7 +17,7 @@ You look around confused as to who would say that to you, but there is no one in
 You look around your room and find the window open, letting in a soft breeze. You don't remember leaving it open.
 You get up and close it shaking you head in confusion before heading to school.
 You see a group of your friends waiting in front of the school.
-***Head over to them
+***Head over to them #school
 -> friends
 ***Avoid them
 -> avoid_them

@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class InkManager : MonoBehaviour
@@ -51,6 +52,11 @@ public class InkManager : MonoBehaviour
         else if (_story.currentChoices.Count > 0)
         {
             DisplayChoices();
+        }
+
+        else
+        {
+            SceneManager.LoadScene("First Night");
         }
        
       
