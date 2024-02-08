@@ -348,6 +348,9 @@ MonoBehaviour:
   _inkJsonAsset_two: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
   _inkJsonAsset_three: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
   _inkJsonAsset_none: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
+  oneColor: {r: 1, g: 1, b: 1, a: 1}
+  twoColor: {r: 1, g: 1, b: 1, a: 1}
+  threeColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &209846338
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +597,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story: {fileID: 4900000, guid: 2e8288c97df8b624ca4ed3ccbd1fd4a5, type: 3}
+  haze: {r: 0, g: 0, b: 0, a: 0}
+  sanityHaze: {r: 0, g: 0, b: 0, a: 0}
 --- !u!4 &484429310
 Transform:
   m_ObjectHideFlags: 0

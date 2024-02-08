@@ -373,10 +373,13 @@ MonoBehaviour:
   one: {fileID: 483433582}
   two: {fileID: 335500530}
   three: {fileID: 1180313751}
-  _inkJsonAsset_one: {fileID: 4900000, guid: 2e8288c97df8b624ca4ed3ccbd1fd4a5, type: 3}
+  _inkJsonAsset_one: {fileID: 4900000, guid: ca0b8502efaad0540b070430b422cf96, type: 3}
   _inkJsonAsset_two: {fileID: 4900000, guid: 2e8288c97df8b624ca4ed3ccbd1fd4a5, type: 3}
-  _inkJsonAsset_three: {fileID: 4900000, guid: 2e8288c97df8b624ca4ed3ccbd1fd4a5, type: 3}
-  _inkJsonAsset_none: {fileID: 4900000, guid: 2e8288c97df8b624ca4ed3ccbd1fd4a5, type: 3}
+  _inkJsonAsset_three: {fileID: 4900000, guid: e905a5edc207b944aba152c6628b700a, type: 3}
+  _inkJsonAsset_none: {fileID: 4900000, guid: ca0b8502efaad0540b070430b422cf96, type: 3}
+  oneColor: {r: 1, g: 1, b: 1, a: 1}
+  twoColor: {r: 1, g: 0.6999999, b: 0.6999999, a: 1}
+  threeColor: {r: 0.7584905, g: 0.2962406, b: 0.2962406, a: 1}
 --- !u!4 &460191873
 Transform:
   m_ObjectHideFlags: 0

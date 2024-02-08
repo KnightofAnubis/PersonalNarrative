@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 290631194}
   - component: {fileID: 290631196}
   - component: {fileID: 290631195}
+  - component: {fileID: 290631197}
   m_Layer: 5
   m_Name: Bedroom
   m_TagString: Untagged
@@ -306,7 +307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.8349056, b: 0.8349056, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -331,6 +332,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290631193}
   m_CullTransparentMesh: 1
+--- !u!114 &290631197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290631193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed02d3c1e1b6484fb70f05ef1d275ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 290631195}
+  gameObject: {fileID: 290631193}
 --- !u!1 &514796382
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +357,7 @@ GameObject:
   - component: {fileID: 514796383}
   - component: {fileID: 514796385}
   - component: {fileID: 514796384}
+  - component: {fileID: 514796386}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -381,7 +397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.8349056, b: 0.8349056, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -406,6 +422,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514796382}
   m_CullTransparentMesh: 1
+--- !u!114 &514796386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514796382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed02d3c1e1b6484fb70f05ef1d275ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 514796384}
+  gameObject: {fileID: 514796382}
 --- !u!1 &515206097
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +987,8 @@ MonoBehaviour:
   _choiceButtonContainer: {fileID: 555070667}
   _choiceButtonPrefab: {fileID: 6308608190650765286, guid: a225911943552bc4cb79c07619d1ac3f, type: 3}
   _normalTextColor: {r: 0, g: 0, b: 0, a: 1}
-  _demonTextColor: {r: 0.7372549, g: 0, b: 0, a: 1}
+  _demonTextColor: {r: 0.23773581, g: 0, b: 0, a: 1}
+  nextNight: Third Night
 --- !u!4 &1542482019
 Transform:
   m_ObjectHideFlags: 0

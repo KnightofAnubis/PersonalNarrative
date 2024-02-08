@@ -9,12 +9,14 @@ public class MainManager : MonoBehaviour
   
     public TextAsset story;
     public Story inkText;
+    public Color haze;
+    public Color sanityHaze;
     public void Update()
     {
         if(MainManager.Instance != null)
         {
             SetStory(MainManager.Instance.story);
-            
+            SetColor(MainManager.Instance.haze);
         }
     }
 
@@ -33,4 +35,11 @@ public class MainManager : MonoBehaviour
     {
         inkText = new Story(storyTime.text);
     }
+
+    public void SetColor(Color color)
+    {
+        sanityHaze = color;
+    }
+
+
 }
