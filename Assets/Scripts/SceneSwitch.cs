@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitch : MonoBehaviour
 {
-
+    public string nextCycle;
     public void OnCollisionEnter2D(Collision2D collision) 
     {
-        SceneManager.LoadScene("First Day");
+        SceneManager.LoadScene(nextCycle);
     }
 
 }

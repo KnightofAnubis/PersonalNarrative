@@ -9,11 +9,11 @@ using UnityEngine.UI;
 
 public class InkManager : MonoBehaviour
 {
-
+    
     [SerializeField]
     private TextAsset _inkJsonAsset;
     private Story _story;
-
+    
     [SerializeField]
     private TMP_Text _textField;
 
@@ -28,6 +28,8 @@ public class InkManager : MonoBehaviour
 
     [SerializeField]
     private Color _demonTextColor;
+
+    public string nextNight;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +38,8 @@ public class InkManager : MonoBehaviour
 
     private void StartStory()
     {
-        _story = new Story(_inkJsonAsset.text);
+        _story = MainManager.Instance.inkText;
+        Debug.Log(_story);
         DisplayNextLine();
     }
 
@@ -56,7 +59,7 @@ public class InkManager : MonoBehaviour
 
         else
         {
-            SceneManager.LoadScene("First Night");
+            SceneManager.LoadScene(nextNight);
         }
        
       

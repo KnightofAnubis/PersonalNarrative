@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
-    
+    [SerializeField] public Slider Slider;
+    public float SanityAmount = 0;
 
 
     // Update is called once per frame
@@ -60,7 +62,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.collider.name == "Circle")
         {
+            
             Destroy(collision.gameObject);
+            SanityAmount += 1;
+            Slider.value  = SanityAmount;
         }
         
     }
