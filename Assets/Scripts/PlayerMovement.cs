@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -8.5f, 8.5f),
+            Mathf.Clamp(transform.position.y, -5f, 9f), transform.position.z);
 
         if(Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -49,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f) 
+        if (isFacingRight && horizontal > 0f || !isFacingRight && horizontal < 0f) 
         {
             isFacingRight = !isFacingRight;
             Vector3 localScale = transform.localScale;
