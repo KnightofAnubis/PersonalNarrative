@@ -25,7 +25,7 @@ No, this is fine. Right? It's just one test.
 ->END
 ===wave===
 You head past your friends with a wave of acknowledgement and find your way to your history class and take your seat. You feel your panic over your grade rise, but are able to push it away. 
-Your teacher places each test face down on everyone's desk. When you flip yours over you see a c- staring back.
+Your teacher places each test face down on everyone's desk. When you flip yours over you see a C- staring back.
 Failure #demon
 No, this is fine. Right? It's just one test.
 ->END

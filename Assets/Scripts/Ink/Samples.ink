@@ -46,7 +46,7 @@ Adrian: Well, lets head in, we got that test today.
 Adrian: Dreading the history test today.
 ->test
 ==test===
-A test. That must be what you had forgotten! Shit! You don't remember studing and have no idea what is on it. You feel your chest tighten. What is this unfamiliar felling?
+A test. That must be what you had forgotten! Shit! You don't remember studing and have no idea what is on it. You feel your chest tighten. What is this unfamiliar feeling?
 Panic #demon
 Panic.
 ->END

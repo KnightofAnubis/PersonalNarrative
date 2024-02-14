@@ -15,7 +15,7 @@ This unsettling feeling hangs over you, that weird voice is probably right.
 ===go_to_call===
 When you get there you slump over in your chair and try to get in a power nap before class, but fail as the bell suddenly rings. Your teacher clears their throat and asks you to sit up straight, you do, not enjoying the snickers that echo around the room. 
 You feel your panic rising.
-Your teacher places each test face down on everyone's desk. When you flip yours over you see a c- staring back.
+Your teacher places each test face down on everyone's desk. When you flip yours over you see a C- staring back.
 Failure #demon
 Yup.
 ->END

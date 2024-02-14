@@ -238,8 +238,8 @@ MonoBehaviour:
   _choiceButtonContainer: {fileID: 1848561505}
   _choiceButtonPrefab: {fileID: 6308608190650765286, guid: a225911943552bc4cb79c07619d1ac3f, type: 3}
   _normalTextColor: {r: 0, g: 0, b: 0, a: 1}
-  _demonTextColor: {r: 0.23773581, g: 0, b: 0, a: 1}
-  nextNight: Third Night
+  _demonTextColor: {r: 0.5566038, g: 0.123398006, b: 0.123398006, a: 1}
+  nextNight: GameOver
 --- !u!4 &682331334
 Transform:
   m_ObjectHideFlags: 0

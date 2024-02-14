@@ -11,4 +11,9 @@ public class SceneSwitch : MonoBehaviour
         SceneManager.LoadScene(nextCycle);
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene("First Night");
+    }
+
 }

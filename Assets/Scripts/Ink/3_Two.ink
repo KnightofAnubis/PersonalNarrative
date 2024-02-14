@@ -2,7 +2,7 @@
 
 ===start_here===
 Sunlight bombards you as your eyes force themselves open. You glance at your alarm clock.
-7:45.
+7:45
 Shit, you are going to be late! You stumble out of bed almost tripping over laundry and other miscellaneous objects scattered around your room. 
 You finally manage to make it out the door when a bus drives by splashing you with water. You hadn’t even realized it had rained last night and now you were soaking wet. 
 You groan and head to school, rushing down the street.
@@ -18,7 +18,7 @@ You keep running until you make it to school, your clothes have even dried a bit
 	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. 
 	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. 
 	The class snickers around you.
-	Pathetic.
+	Pathetic. #demon
 	“Shut up”
 	Mr Shuttler: Excuse me?
 ***"I mean, I'm sorry."
@@ -75,7 +75,7 @@ After backtracking you finally make it to school.
 	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. 
 	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. 
 	The class snickers around you.
-	Pathetic.
+	Pathetic.#demon
 	“Shut up”
 	Mr Shuttler: Excuse me?
 ***"I mean, I'm sorry."

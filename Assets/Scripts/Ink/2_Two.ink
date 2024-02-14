@@ -34,7 +34,7 @@ You really hate her.
 "I don’t really drink tea, but thank you."
 Adrian: Alright let’s go face the music.
 You all head inside to your history class and take your seats. You feel your panic over your grade rise.
-Your teacher places each test face down on everyone's desk. When you flip yours over you see a c- staring back.
+Your teacher places each test face down on everyone's desk. When you flip yours over you see a C- staring back.
 Failure #demon
 No, this is fine. Right? Right? You feel your chest tighten again.
 ->END
@@ -46,7 +46,7 @@ Brandon: I think it’s cool.
 More silence falls over your group until the bell rings.
 Adrian: Alright let’s go face the music.
 You all head inside to your history class and take your seats. You feel your panic over your grade rise.
-Your teacher places each test face down on everyone's desk. When you flip yours over you see a c- staring back.
+Your teacher places each test face down on everyone's desk. When you flip yours over you see a C- staring back.
 Failure #demon
 No, this is fine. Right? Right? You feel your chest tighten again.
 ->END
@@ -58,13 +58,13 @@ Adrien: Maybe you should head home, if you’re feeling sick?
 “I’m fine.”
 Adrien: Alright, let’s head to class.  
 You two head inside to your history class and take your seats. You feel your panic over your grade rise.
-Your teacher places each test face down on everyone's desk. When you flip yours over you see a c- staring back.
+Your teacher places each test face down on everyone's desk. When you flip yours over you see a C- staring back.
 Failure #demon
 No, this is fine. Right? Right? You feel your chest tighten again.
 ->END
 ===wave===
 You head past your friends with a wave of acknowledgement and find your way to your history class and take your seat. You feel your panic over your grade rise, but are able to push it away. 
-Once everyone is seated your teacher places each test face down on everyone's desk. When you flip yours over you see a c- staring back.
+Once everyone is seated your teacher places each test face down on everyone's desk. When you flip yours over you see a C- staring back.
 Failure #demon
 No, this is fine. Right? Right? You feel your chest tighten again.
 ->END
