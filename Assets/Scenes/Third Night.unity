@@ -2407,10 +2407,10 @@ MonoBehaviour:
   one: {fileID: 440942120}
   two: {fileID: 477449397}
   three: {fileID: 408072959}
-  _inkJsonAsset_one: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
-  _inkJsonAsset_two: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
-  _inkJsonAsset_three: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
-  _inkJsonAsset_none: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
+  _inkJsonAsset_one: {fileID: 4900000, guid: c7834fb9cebdc314b8d9e263204307ea, type: 3}
+  _inkJsonAsset_two: {fileID: 4900000, guid: 5fed2593d4b0ca64290cab28ea59bbec, type: 3}
+  _inkJsonAsset_three: {fileID: 4900000, guid: 5fed2593d4b0ca64290cab28ea59bbec, type: 3}
+  _inkJsonAsset_none: {fileID: 4900000, guid: c7834fb9cebdc314b8d9e263204307ea, type: 3}
   oneColor: {r: 0.96981126, g: 0.96981126, b: 0.96981126, a: 1}
   twoColor: {r: 0.97735846, g: 0.55875397, b: 0.55875397, a: 1}
   threeColor: {r: 0.645283, g: 0.18871474, b: 0.18871474, a: 1}
