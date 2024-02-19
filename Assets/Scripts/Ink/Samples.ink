@@ -15,9 +15,9 @@ You look around confused as to who would say that to you, but there is no one in
 ->friends
 ===look_around===
 You look around your room and find the window open, letting in a soft breeze. You don't remember leaving it open.
-You get up and close it shaking you head in confusion before heading to school.
+You get up and close it shaking you head in confusion before heading to school. #school
 You see a group of your friends waiting in front of the school.
-***Head over to them #school
+***Head over to them 
 -> friends
 ***Avoid them
 -> avoid_them
@@ -49,6 +49,10 @@ Adrian: Dreading the history test today.
 A test. That must be what you had forgotten! Shit! You don't remember studing and have no idea what is on it. You feel your chest tighten. What is this unfamiliar feeling?
 Panic #demon
 Panic.
+The rest of the day passes you in a blur. #room
+
+It is much later when you return home does exhaustion really hit you and you fall into your bed. It isn't long before you are taken over by the darkness. 
+
 ->END
 ===avoid_them===
 With this strange haze you don't feel up to socializing and head inside without talking to your friends. 

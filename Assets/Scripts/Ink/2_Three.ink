@@ -5,7 +5,7 @@ Sadly you don’t actually feel sick, just tired and exhausted.
 *** Go to school anyways
 ->going_to_school
 === going_to_school ===
-You get up and stumble around. You throw on clothes and pick up what you think you need for class and head off to school. Not really caring about how cold your room was.
+You get up and stumble around. You throw on clothes and pick up what you think you need for class and head off to school. Not really caring about how cold your room was. #school
 You see your friends at the same spot they were yesterday except Tiffany is with them. Why would she be there?
 They are replacing you #demon
 This unsettling feeling hangs over you, that weird voice is probably right. 
@@ -18,6 +18,9 @@ You feel your panic rising.
 Your teacher places each test face down on everyone's desk. When you flip yours over you see a C- staring back.
 Failure #demon
 Yup.
+
+Claiming to feel sick, you head home. #room
+You fall face first into bed and allow that darkness to take you.
 ->END
 
 

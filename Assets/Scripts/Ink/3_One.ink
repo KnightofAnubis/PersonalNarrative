@@ -5,7 +5,7 @@ Sunlight streams into your room as you blink awake. Looking over at your alarm c
 7:45
 Shit.
 You’re going to be late and everyone will laugh #demon
-No, this is going to be fine. You quickly throw on clothes and gather your school supplies before racing out the door. 
+No, this is going to be fine. You quickly throw on clothes and gather your school supplies before racing out the door. #school
 ***Go the normal way to school
 ->go_normal
 ***Go Shorter, but hazard filled way
@@ -62,7 +62,8 @@ Mr. Shuttler: Take your seat. Don’t make a habit of this, agreed?
 “Yes, sir.”
 You take your seat and relax for the first time since getting up this morning.
 Pathetic #demon
-Not today, Satan.  
+Not today, Satan. #room
+That night when you slip into bed, you breath a sigh of relief before falling asleep.
 ->END
 
 

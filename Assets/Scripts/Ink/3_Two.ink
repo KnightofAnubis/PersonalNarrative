@@ -5,7 +5,7 @@ Sunlight bombards you as your eyes force themselves open. You glance at your ala
 7:45
 Shit, you are going to be late! You stumble out of bed almost tripping over laundry and other miscellaneous objects scattered around your room. 
 You finally manage to make it out the door when a bus drives by splashing you with water. You hadn’t even realized it had rained last night and now you were soaking wet. 
-You groan and head to school, rushing down the street.
+You groan and head to school, rushing down the street. #school
 ***Go the normal way to school
 ->go_normal
 ***Go shorter, but hazard filled way
@@ -40,7 +40,9 @@ Mr. Shuttler: Oh, so that’s how it is, hm? Principal's office, now!
 Not realizing what you had actually just said, panic grips you, it squeezes your chest and makes you feel like you are going to be sick or start crying. 
 You nod numbly and head back down the hallway to the principal’s office. 
 Hahaha, stupid. #demon
-You can’t exactly argue with it.
+You can’t exactly argue with it. 
+After taking to the Principal you get sent home. #room
+Your parents give you looks of disaproval and send you to your room. Night can't seem to fall fast enough.
 ->END
 
 

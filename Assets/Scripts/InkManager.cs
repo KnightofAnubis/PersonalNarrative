@@ -29,6 +29,9 @@ public class InkManager : MonoBehaviour
     [SerializeField]
     private Color _demonTextColor;
 
+    public bool school = false;
+    public bool room = true;
+
     public string nextNight;
     // Start is called before the first frame update
     void Start()
@@ -47,6 +50,7 @@ public class InkManager : MonoBehaviour
     {
         if (_story.canContinue)
         {
+            ChangeBackground();
             string text = _story.Continue();
             text = text?.Trim();
             ApplyStyling();
@@ -118,5 +122,21 @@ public class InkManager : MonoBehaviour
         {
             _textField.color = _normalTextColor;
         }
+    }
+
+    void ChangeBackground()
+    {
+        if (_story.currentTags.Contains("school"))
+        {
+            school = true;
+            room = false;
+        }
+
+        if (_story.currentTags.Contains("room"))
+        {
+            school = false;
+            room = true;
+        }
+
     }
 }

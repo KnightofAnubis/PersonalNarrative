@@ -1,12 +1,12 @@
 -> start_here
 === start_here ===
 Upon waking up this feeling of unease sinks down into your stomach, you don’t want to face the day and what is in store for you. After failing the test you aren’t sure if you even want to go to school.
-***Go to school
+***Go to school 
 ->going_to_school
 
 === going_to_school ===
 You huff and get out of bed instantly realizing how cold your room is. For some reason your window is open… again. 
-You shut it with a slam and get dressed, not caring how your clothes don’t match. After collecting your school material you head out to school.
+You shut it with a slam and get dressed, not caring how your clothes don’t match. After collecting your school material you head out to school. #school
 You see your friends at the same spot they were yesterday except Tiffany is with them. Why would she be there?
 They are replacing you #demon
 Are they?
@@ -67,6 +67,8 @@ You head past your friends with a wave of acknowledgement and find your way to y
 Once everyone is seated your teacher places each test face down on everyone's desk. When you flip yours over you see a C- staring back.
 Failure #demon
 No, this is fine. Right? Right? You feel your chest tighten again.
+The school day seems to rush by, but you never really lose that tight feeling. At somepoints it feels like you can hardly breath. #room
+As you enter your room you could care less about homework. Instead falling into bed and curling up into a ball. 
 ->END
 
 
