@@ -31,6 +31,7 @@ public class InkManager : MonoBehaviour
 
     public bool school = false;
     public bool room = true;
+    public bool demon = false;
 
     public string nextNight;
     // Start is called before the first frame update
@@ -114,7 +115,7 @@ public class InkManager : MonoBehaviour
 
     private void ApplyStyling()
     {
-        if (_story.currentTags.Contains("demon"))
+        if (_story.currentTags.Contains("demonColor"))
         {
             _textField.color = _demonTextColor;
         }
@@ -136,6 +137,15 @@ public class InkManager : MonoBehaviour
         {
             school = false;
             room = true;
+        }
+
+        if (_story.currentTags.Contains("demon"))
+        {
+            demon = true;
+        }
+        else
+        {
+            demon = false;
         }
 
     }
