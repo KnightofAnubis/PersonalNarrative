@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Third Day.unity
     guid: 3954bcbfd793a434882e09801984859e
   - enabled: 1
+    path: Assets/Scenes/Fourth Night.unity
+    guid: 3b883ac85d7aaf24dbef64168abfe8f9
+  - enabled: 1
+    path: Assets/Scenes/Fourth Day.unity
+    guid: 5e5adff48e9055c46a0734df799a4cf4
+  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: e9b6efb0471a31b49aa51cf77f98aac7
   m_configObjects: {}
