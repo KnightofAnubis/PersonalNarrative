@@ -32,6 +32,7 @@ public class InkManager : MonoBehaviour
     public bool school = false;
     public bool room = true;
     public bool demon = false;
+    public bool adrian = false;
 
     public string nextNight;
     // Start is called before the first frame update
@@ -146,6 +147,15 @@ public class InkManager : MonoBehaviour
         else
         {
             demon = false;
+        }
+
+        if (_story.currentTags.Contains("Adrian"))
+        {
+            adrian = true;
+        }
+        else
+        {
+            adrian = false;
         }
 
     }
