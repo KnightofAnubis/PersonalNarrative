@@ -6,40 +6,58 @@ using UnityEngine.UI;
 public class BackgroundChange : MonoBehaviour
 {
     [SerializeField]
-    private Image backgroundImage; 
+    private Image roomImage;
+    [SerializeField]
+    private Image schoolImage;
+
+    [SerializeField]
+    private Image classroomImage;
+
+    //[SerializeField]
+    //private Image gymImage;
+
 
     public GameObject inkManager;
     public bool school;
     public bool room;
+    public bool classroom;
+    //public bool gym;
 
     [SerializeField]
     private Color newColor;
     // Start is called before the first frame update
-    void Start()
-    {
-       backgroundImage = gameObject.GetComponent<Image>();
-        
-    }
+   
 
     private void Update()
     {
         school = inkManager.GetComponent<InkManager>().school;
         room = inkManager.GetComponent<InkManager>().room;
+        classroom = inkManager.GetComponent<InkManager>().classroom;
+
         if (school == true)
         {
-
-           backgroundImage.enabled = false;
-            ColorChange(backgroundImage);
+            schoolImage.enabled = true;
+            roomImage.enabled = false;
+            ColorChange(roomImage);
 
         }
 
-        if (room == true)
+        else if(classroom == true)
         {
-            Debug.Log("Made it here!");
-            
-            backgroundImage.enabled = true;
+            classroomImage.enabled = true;
+            schoolImage.enabled = false;
+            roomImage.enabled = false;
+        }
+
+        else if (room == true)
+        {
+           
+            roomImage.enabled = true;
+            schoolImage.enabled = false;
+            classroomImage.enabled = false;
 
         }
+
     }
 
 

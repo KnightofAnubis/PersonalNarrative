@@ -465,8 +465,8 @@ MonoBehaviour:
   two: {fileID: 335500530}
   three: {fileID: 1180313751}
   _inkJsonAsset_one: {fileID: 4900000, guid: c7834fb9cebdc314b8d9e263204307ea, type: 3}
-  _inkJsonAsset_two: {fileID: 4900000, guid: 5fed2593d4b0ca64290cab28ea59bbec, type: 3}
-  _inkJsonAsset_three: {fileID: 4900000, guid: 5fed2593d4b0ca64290cab28ea59bbec, type: 3}
+  _inkJsonAsset_two: {fileID: 4900000, guid: c7834fb9cebdc314b8d9e263204307ea, type: 3}
+  _inkJsonAsset_three: {fileID: 4900000, guid: d8d14a2e59b1ddf479d7e59865fe8925, type: 3}
   _inkJsonAsset_none: {fileID: 4900000, guid: c7834fb9cebdc314b8d9e263204307ea, type: 3}
   oneColor: {r: 1, g: 1, b: 1, a: 1}
   twoColor: {r: 1, g: 0.6999999, b: 0.6999999, a: 1}
@@ -2150,7 +2150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1170454474
 RectTransform:
   m_ObjectHideFlags: 0

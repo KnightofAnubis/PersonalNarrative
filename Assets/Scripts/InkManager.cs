@@ -12,7 +12,7 @@ using UnityEngine.UI;
 public class InkManager : MonoBehaviour
 {
     [Header("Params")]
-    [SerializeField] private float typingSpeed = 0.04f;
+    [SerializeField] private float typingSpeed = 0.01f;
 
     [SerializeField]
     private TextAsset _inkJsonAsset;
@@ -39,6 +39,9 @@ public class InkManager : MonoBehaviour
 
     public bool school = false;
     public bool room = true;
+    public bool classroom = false;
+
+    [Header("Characters")]
     public bool demon = false;
     public bool adrian = false;
     public bool brandon = false;
@@ -107,13 +110,13 @@ public class InkManager : MonoBehaviour
 
             if (_story.canContinue)
             {
-                ChangeBackground();
+                
                 string text = _story.Continue();
                 text = text?.Trim();
                 displayLineCoroutine = StartCoroutine(DisplayLine(text));
               
                 
-                
+                ChangeBackground();
                 ApplyStyling();
                 _textField.text = text;
                 
@@ -196,13 +199,21 @@ public class InkManager : MonoBehaviour
         if (_story.currentTags.Contains("school"))
         {
             school = true;
+            classroom = false;
+            room = false;
+        }
+        if (_story.currentTags.Contains("classroom"))
+        {
+            classroom = true;
+            school = false;
             room = false;
         }
 
         if (_story.currentTags.Contains("room"))
         {
-            school = false;
             room = true;
+            classroom = false;
+            school = false;
         }
 
         if (_story.currentTags.Contains("demon"))

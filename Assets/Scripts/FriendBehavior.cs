@@ -20,13 +20,7 @@ public class FriendBehavior : MonoBehaviour
     public bool shuttler;
     public bool tiffany;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-
-    }
-
+   
     private void Update()
     {
         adrian = inkManager_friends.GetComponent<InkManager>().adrian;

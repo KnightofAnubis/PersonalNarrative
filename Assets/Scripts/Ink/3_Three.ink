@@ -13,36 +13,37 @@ You groan and head to school, rushing down the street. #school
 
 ===go_normal===
 You keep running until you make it to school, your clothes have even dried a bit. You check your watch, only to realize that you didn’t put it on. 
-	You are very late, might as well not go #demon
+	You are very late, might as well not go #demon #demonColor
 	“Shut up.”
-	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. 
-	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. 
+	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. #classroom
+	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. #Shuttler
 	The class snickers around you.
-	Pathetic. #demon
+	Pathetic. #demon #demonColor
 	“Shut up”
-	Mr Shuttler: Excuse me?
+	Mr Shuttler: Excuse me? #Shuttler
 ***"I mean, I'm sorry."
 ->sorry
 ***"You heard me."
 ->you_heard_me
 
 ===sorry===
-Mr. Shuttler: Mhm. You know the rules. 
+Mr. Shuttler: Mhm. You know the rules. #Shuttler 
 He goes over to his desk and writes on a detention slip. He hands it to you.
-Mr. Shuttler: Get to your seat and pay attention. 
+Mr. Shuttler: Get to your seat and pay attention. #Shuttler
 You hear whispers around you about how you stink like a wet dog. How you look like a mess. How you shouldn’t have even bothered coming to school.
-No one wants you here # demon
+No one wants you here #demon #demonColor
 You feel like you are going to cry. You just want the voice to stop.
+You get home head to where your mom keeps medication. You pop two sleeping pills into your mouth and pray that you get some actual sleep tonight. #room
 ->END
 
 ===you_heard_me===
-Mr. Shuttler: Oh, so that’s how it is, hm? Principal's office, now! 
+Mr. Shuttler: Oh, so that’s how it is, hm? Principal's office, now! #Shuttler
 Not realizing what you had actually just said, panic grips you, it squeezes your chest and makes you feel like you are going to be sick or start crying. 
 You nod numbly and head back down the hallway to the principal’s office. 
-Hahaha, stupid. #demon
+Hahaha, stupid. #demon #demonColor
 You can’t exactly argue with it. 
-After taking to the Principal you get sent home. #room
-Your parents give you looks of disaproval and send you to your room. Night can't seem to fall fast enough.
+After taking to the Principal you get sent home. 
+Your parents give you looks of disaproval and send you to your room. Night can't seem to fall fast enough.#room
 ->END
 
 
@@ -72,14 +73,14 @@ You regret your choice and run back the other way heading to school your normal 
 
 ===finish===
 After backtracking you finally make it to school.
-	You are very late, might as well not go #demon
+	You are very late, might as well not go #demon #demonColor
 	“Shut up.”
-	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. 
-	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. 
+	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. #classroom
+	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. #Shuttler
 	The class snickers around you.
-	Pathetic.#demon
+	Pathetic.#demon #demonColor
 	“Shut up”
-	Mr Shuttler: Excuse me?
+	Mr Shuttler: Excuse me? #Shuttler
 ***"I mean, I'm sorry."
 ->sorry
 ***"You heard me."
