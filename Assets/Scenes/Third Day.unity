@@ -233,7 +233,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8375c9585b423fb44bc569f925572aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  typingSpeed: 0.04
   _inkJsonAsset: {fileID: 4900000, guid: 2e8288c97df8b624ca4ed3ccbd1fd4a5, type: 3}
+  continueIcon: {fileID: 0}
   _textField: {fileID: 1394892670}
   _choiceButtonContainer: {fileID: 1848561505}
   _choiceButtonPrefab: {fileID: 6308608190650765286, guid: a225911943552bc4cb79c07619d1ac3f, type: 3}
@@ -241,7 +243,12 @@ MonoBehaviour:
   _demonTextColor: {r: 0.5566038, g: 0.123398006, b: 0.123398006, a: 1}
   school: 0
   room: 1
-  nextNight: GameOver
+  demon: 0
+  adrian: 0
+  brandon: 0
+  shuttler: 0
+  tiffany: 0
+  nextNight: Fourth Night
 --- !u!4 &682331334
 Transform:
   m_ObjectHideFlags: 0
@@ -709,9 +716,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 1493559082}
-  inkManager: {fileID: 682331332}
-  school: 0
-  room: 0
 --- !u!114 &1493559082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,9 +805,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 1702353425}
-  inkManager: {fileID: 0}
-  school: 0
-  room: 0
 --- !u!114 &1702353425
 MonoBehaviour:
   m_ObjectHideFlags: 0

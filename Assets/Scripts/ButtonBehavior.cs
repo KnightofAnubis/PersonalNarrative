@@ -19,5 +19,6 @@ public class ButtonBehavior : MonoBehaviour
     public void OnClick()
     {
         _inkManager?.DisplayNextLine();
+        
     }
 }
