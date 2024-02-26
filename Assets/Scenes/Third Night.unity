@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bae2706968c2a44eac5631a6360fead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextCycle: Second Day
+  nextCycle: Third Day
 --- !u!61 &353999674
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -465,12 +465,12 @@ MonoBehaviour:
   two: {fileID: 335500530}
   three: {fileID: 1180313751}
   _inkJsonAsset_one: {fileID: 4900000, guid: c7834fb9cebdc314b8d9e263204307ea, type: 3}
-  _inkJsonAsset_two: {fileID: 4900000, guid: c7834fb9cebdc314b8d9e263204307ea, type: 3}
+  _inkJsonAsset_two: {fileID: 4900000, guid: 5fed2593d4b0ca64290cab28ea59bbec, type: 3}
   _inkJsonAsset_three: {fileID: 4900000, guid: d8d14a2e59b1ddf479d7e59865fe8925, type: 3}
   _inkJsonAsset_none: {fileID: 4900000, guid: c7834fb9cebdc314b8d9e263204307ea, type: 3}
-  oneColor: {r: 1, g: 1, b: 1, a: 1}
-  twoColor: {r: 1, g: 0.6999999, b: 0.6999999, a: 1}
-  threeColor: {r: 0.7584905, g: 0.2962406, b: 0.2962406, a: 1}
+  oneColor: {r: 1, g: 0.5613208, b: 0.5613208, a: 1}
+  twoColor: {r: 1, g: 0.3726415, b: 0.3726415, a: 1}
+  threeColor: {r: 0.5754717, g: 0.10586509, b: 0.10586509, a: 1}
 --- !u!4 &460191873
 Transform:
   m_ObjectHideFlags: 0

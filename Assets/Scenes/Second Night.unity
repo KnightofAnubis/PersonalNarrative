@@ -1449,7 +1449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bae2706968c2a44eac5631a6360fead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextCycle: Third Day
+  nextCycle: Second Day
 --- !u!61 &327331623
 BoxCollider2D:
   m_ObjectHideFlags: 0

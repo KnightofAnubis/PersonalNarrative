@@ -10,7 +10,7 @@ You awaken from sleep with this feeling of unease surrounding you. You have this
 ===going_to_school===
 You head off to school, deciding to walk to try and clear this strange haze. You see your friends waiting outside the school for you. #school
 You go to say hi when this strange voice echoes around you. 
-They don't want you here! #demonColor #demon
+They don't want you here #demonColor #demon
 You look around confused as to who would say that to you, but there is no one in whispering distance. You shake it off as not enough sleep.
 ->friends
 ===look_around===
@@ -48,7 +48,7 @@ Adrian: Well, lets head in, we got that test today.#Adrian
 Adrian: Dreading the history test today.#Adrian
 ->test
 ==test===
-A test. That must be what you had forgotten! Shit! You don't remember studing and have no idea what is on it. You feel your chest tighten. What is this unfamiliar feeling?
+A test. That must be what you had forgotten! Shit! You don't remember studying and have no idea what is on it. You feel your chest tighten. What is this unfamiliar feeling?
 Panic #demonColor #demon
 Panic.
 The rest of the day passes you in a blur. 
