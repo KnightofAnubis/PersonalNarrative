@@ -1373,10 +1373,12 @@ MonoBehaviour:
   roomImage: {fileID: 1024694006}
   schoolImage: {fileID: 701257401}
   classroomImage: {fileID: 609743736}
+  gymImage: {fileID: 0}
   inkManager: {fileID: 1991679374}
   school: 0
   room: 0
   classroom: 0
+  gym: 0
   newColor: {r: 0.12610175, g: 0.14047325, b: 0.335849, a: 1}
 --- !u!1 &1870497151
 GameObject:
@@ -1658,6 +1660,7 @@ MonoBehaviour:
   school: 0
   room: 1
   classroom: 0
+  gym: 0
   demon: 0
   adrian: 0
   brandon: 0

@@ -691,6 +691,7 @@ MonoBehaviour:
   _inkJsonAsset_two: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
   _inkJsonAsset_three: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
   _inkJsonAsset_none: {fileID: 4900000, guid: d7a43498463813b4996d81482e9583ff, type: 3}
+  noneColor: {r: 1, g: 1, b: 1, a: 1}
   oneColor: {r: 0.990566, g: 0.6961997, b: 0.6961997, a: 1}
   twoColor: {r: 1, g: 0.3726415, b: 0.3726415, a: 1}
   threeColor: {r: 0.5754717, g: 0.10586509, b: 0.10586509, a: 1}
@@ -1185,9 +1186,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d22321218f0ee43bd419d176277d8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: {fileID: 4900000, guid: 2e8288c97df8b624ca4ed3ccbd1fd4a5, type: 3}
+  story: {fileID: 4900000, guid: 8bbad2aa6e5d5984c912028a4f2821fd, type: 3}
   haze: {r: 0, g: 0, b: 0, a: 0}
   sanityHaze: {r: 0, g: 0, b: 0, a: 0}
+  success: 0
 --- !u!4 &484429310
 Transform:
   m_ObjectHideFlags: 0
@@ -1307,7 +1309,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 34
+  field of view: 52
   orthographic: 1
   orthographic size: 5
   m_Depth: -1

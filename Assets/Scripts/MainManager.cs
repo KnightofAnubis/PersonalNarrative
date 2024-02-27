@@ -6,15 +6,17 @@ using Ink.Runtime;
 public class MainManager : MonoBehaviour
 {
     public static MainManager Instance;
-  
+   
     public TextAsset story;
     public Story inkText;
     public Color haze;
     public Color sanityHaze;
+    public bool success = false;
     public void Update()
     {
         if(MainManager.Instance != null)
         {
+           
             SetStory(MainManager.Instance.story);
             SetColor(MainManager.Instance.haze);
         }

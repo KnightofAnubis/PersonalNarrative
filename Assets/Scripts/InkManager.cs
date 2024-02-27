@@ -40,6 +40,7 @@ public class InkManager : MonoBehaviour
     public bool school = false;
     public bool room = true;
     public bool classroom = false;
+    public bool gym = false;
 
     [Header("Characters")]
     public bool demon = false;
@@ -48,7 +49,9 @@ public class InkManager : MonoBehaviour
     public bool shuttler = false;
     public bool tiffany = false;
 
+
     public string nextNight;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -129,7 +132,16 @@ public class InkManager : MonoBehaviour
 
             else
             {
-                SceneManager.LoadScene(nextNight);
+            if (MainManager.Instance.success)
+                {
+                    Debug.Log("success");
+                    SceneManager.LoadScene("GameOver");
+                }
+                else
+                {
+                    SceneManager.LoadScene(nextNight);
+                }
+                
             }
 
 
@@ -196,17 +208,20 @@ public class InkManager : MonoBehaviour
 
     void ChangeBackground()
     {
+        //background
         if (_story.currentTags.Contains("school"))
         {
             school = true;
             classroom = false;
             room = false;
+            gym = false;
         }
         if (_story.currentTags.Contains("classroom"))
         {
             classroom = true;
             school = false;
             room = false;
+            gym = false;
         }
 
         if (_story.currentTags.Contains("room"))
@@ -214,8 +229,17 @@ public class InkManager : MonoBehaviour
             room = true;
             classroom = false;
             school = false;
+            gym = false;
+        }
+        if (_story.currentTags.Contains("gym"))
+        {
+            gym = true;
+            school = false;
+            classroom = false;
+            room = false;
         }
 
+        //characters
         if (_story.currentTags.Contains("demon"))
         {
             demon = true;

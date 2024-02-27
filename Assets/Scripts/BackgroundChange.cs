@@ -13,15 +13,15 @@ public class BackgroundChange : MonoBehaviour
     [SerializeField]
     private Image classroomImage;
 
-    //[SerializeField]
-    //private Image gymImage;
+    [SerializeField]
+    private Image gymImage;
 
 
     public GameObject inkManager;
     public bool school;
     public bool room;
     public bool classroom;
-    //public bool gym;
+    public bool gym;
 
     [SerializeField]
     private Color newColor;
@@ -33,6 +33,7 @@ public class BackgroundChange : MonoBehaviour
         school = inkManager.GetComponent<InkManager>().school;
         room = inkManager.GetComponent<InkManager>().room;
         classroom = inkManager.GetComponent<InkManager>().classroom;
+        gym = inkManager.GetComponent<InkManager>().gym;
 
         if (school == true)
         {
@@ -56,6 +57,13 @@ public class BackgroundChange : MonoBehaviour
             schoolImage.enabled = false;
             classroomImage.enabled = false;
 
+        }
+        else if (gym == true) 
+        {
+            gymImage.enabled = true;
+            roomImage.enabled = false;
+            schoolImage.enabled = false;
+            classroomImage.enabled = false;
         }
 
     }

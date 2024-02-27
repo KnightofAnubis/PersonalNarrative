@@ -14,6 +14,7 @@ public class Sanity : MonoBehaviour
     [SerializeField] private TextAsset _inkJsonAsset_three;
     [SerializeField] private TextAsset _inkJsonAsset_none;
 
+    [SerializeField] private Color noneColor;
     [SerializeField] private Color oneColor;
     [SerializeField] private Color twoColor;
     [SerializeField] private Color threeColor;
@@ -28,6 +29,7 @@ public class Sanity : MonoBehaviour
         {
             
             Progression(_inkJsonAsset_one, oneColor);
+            MainManager.Instance.success = false;
 
             //Debug.Log("one");
         }
@@ -36,18 +38,21 @@ public class Sanity : MonoBehaviour
         {
             
             Progression(_inkJsonAsset_two, twoColor);
-            //Debug.Log("two");
+            MainManager.Instance.success = false;
+            // Debug.Log("two");
         }
 
         else if (two == null && one == null && three == null)
         {
             
             Progression(_inkJsonAsset_three, threeColor);
+            MainManager.Instance.success = false;
             //Debug.Log("three");
         }
         else
         {
-            Progression(_inkJsonAsset_none, oneColor);
+            Progression(_inkJsonAsset_none, noneColor);
+            MainManager.Instance.success = true;
             //Debug.Log("none");
         }
     }
@@ -55,6 +60,8 @@ public class Sanity : MonoBehaviour
     {
         MainManager.Instance.story = next_up;
         MainManager.Instance.haze = color;
+        
+        
         //Debug.Log(next_up);
     }
 

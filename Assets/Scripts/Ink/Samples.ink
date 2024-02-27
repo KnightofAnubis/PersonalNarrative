@@ -53,7 +53,7 @@ Panic #demonColor #demon
 Panic.
 The rest of the day passes you in a blur. 
 
-It is much later when you return home does exhaustion really hit you and you fall into your bed. It isn't long before you are taken over by the darkness. #room
+It isn't until you are back home, that exhaustion really hits you and you fall into your bed. It isn't long before you are taken over by the darkness. #room
 
 ->END
 ===avoid_them===
