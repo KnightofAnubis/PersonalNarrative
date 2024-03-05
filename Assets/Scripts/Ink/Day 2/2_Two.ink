@@ -23,7 +23,7 @@ Brandon: Still not sleeping? #Brandon
 "Yeah, I feel like crap still."
 Tiffany: Oh, you poor thing. You know I always drink this really good tea from Tik Tok that does great things for my sleep schedule. #Tiffany
 You really hate her.
-***Push your hatred alway
+***Push your hatred away
 ->push
 ***Be passive aggressive
 ->passive_aggressive
