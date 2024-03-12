@@ -27,8 +27,7 @@ You really hate her.
 ->push
 ***Be passive aggressive
 ->passive_aggressive
-***Tell her off
-->tell_her_off
+
 
 === push ===
 "I don’t really drink tea, but thank you."
@@ -37,7 +36,7 @@ You all head inside to your history class and take your seats. You feel your pan
 Your teacher places each test face down on everyone's desk. When you flip yours over you see a D- staring back.
 Failure #demon #demonColor
 No, this is fine. Right? Right? You feel your chest tighten again.
-The school day seems to rush by, but you never really lose that tight feeling. At some points it feels like you can hardly breath. 
+The school day seems to rush by, but you never really lose that tight feeling. At some points it feels like you can hardly breathe. 
 As you enter your room you could care less about homework. Instead falling into bed and curling up into a ball. #room
 ->END
 ===passive_aggressive===
@@ -51,32 +50,18 @@ You all head inside to your history class and take your seats. You feel your pan
 Your teacher places each test face down on everyone's desk. When you flip yours over you see a D- staring back.
 Failure #demon #demonColor
 No, this is fine. Right? Right? You feel your chest tighten again.
-The school day seems to rush by, but you never really lose that tight feeling. At some points it feels like you can hardly breath. 
+The school day seems to rush by, but you never really lose that tight feeling. At some points it feels like you can hardly breathe. 
 As you enter your room you could care less about homework. Instead falling into bed and curling up into a ball. #room
 ->END
-===tell_her_off===
-“I really don’t care that you drink some special tea and I’m not going to be one of those posers that do Tik Tok trends.”
-An awkward silence falls over your group.
-Tiffany huffs and walks away. Brandon rolls his eyes at you and runs after her.
-Adrian: Maybe you should head home, if you’re feeling sick? #Adrian
-“I’m fine.”
-Adrian: Alright, let’s head to class. #Adrian 
-You two head inside to your history class and take your seats. You feel your panic over your grade rise.#classroom
-Your teacher places each test face down on everyone's desk. When you flip yours over you see a D- staring back.
-Failure #demon #demonColor
-No, this is fine. Right? Right? You feel your chest tighten again.
-The school day seems to rush by, but you never really lose that tight feeling. At some points it feels like you can hardly breath. 
-As you enter your room you could care less about homework. Instead falling into bed and curling up into a ball. #room
-->END
+
 ===wave===
 You head past your friends with a wave of acknowledgement and find your way to your history class and take your seat. You feel your panic over your grade rise, but are able to push it away. #classroom
 Once everyone is seated your teacher places each test face down on everyone's desk. When you flip yours over you see a D- staring back.
 Failure #demon #demonColor
 No, this is fine. Right? Right? You feel your chest tighten again.
-The school day seems to rush by, but you never really lose that tight feeling. At some points it feels like you can hardly breath. 
+The school day seems to rush by, but you never really lose that tight feeling. At some points it feels like you can hardly breathe. 
 As you enter your room you could care less about homework. Instead falling into bed and curling up into a ball. #room
 ->END
-
 
 
 

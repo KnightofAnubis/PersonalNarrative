@@ -17,7 +17,7 @@ You keep running until you make it to school, your clothes have even dried a bit
 	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. #classroom
 	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. #Shuttler
 	The class snickers around you.
-	Pathetic. #demon #demonColor
+	Pathetic #demon #demonColor
 	“Shut up”
 	Mr Shuttler: Excuse me? #Shuttler
 ***"I mean, I'm sorry."
@@ -80,10 +80,11 @@ After backtracking you finally make it to school.
 	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. #classroom
 	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. #Shuttler
 	The class snickers around you.
-	Pathetic.#demon #demonColor
+	Pathetic #demon #demonColor
 	“Shut up”
 	Mr Shuttler: Excuse me? #Shuttler
 ***"I mean, I'm sorry."
 ->sorry
 ***"What?"
 ->you_heard_me
+

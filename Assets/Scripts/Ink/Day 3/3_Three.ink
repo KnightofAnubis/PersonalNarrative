@@ -1,3 +1,4 @@
+
 ->start_here
 
 ===start_here===
@@ -18,7 +19,7 @@ You keep running until you make it to school, your clothes have even dried a bit
 	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. #classroom
 	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. #Shuttler
 	The class snickers around you.
-	Pathetic. #demon #demonColor
+	Pathetic #demon #demonColor
 	“Shut up”
 	Mr Shuttler: Excuse me? #Shuttler
 ***"I mean, I'm sorry."
@@ -42,8 +43,8 @@ Not realizing what you had actually just said, panic grips you, it squeezes your
 You nod numbly and head back down the hallway to the principal’s office. 
 Hahaha, stupid. #demon #demonColor
 You can’t exactly argue with it. 
-After taking to the Principal you get sent home. 
-Your parents give you looks of disaproval and send you to your room. Night can't seem to fall fast enough.#room
+After talking to the Principal you get sent home. 
+Your parents give you looks of disapproval and send you to your room. Night can't seem to fall fast enough.#room
 ->END
 
 
@@ -78,13 +79,14 @@ After backtracking you finally make it to school.
 	You open the door to your classroom and effectively interrupt your teacher halfway through his lesson. #classroom
 	Mr. Shuttler: Well, look who it is. How fantastic that you were able to join us today. And make it to class a whole 30 minutes late. #Shuttler
 	The class snickers around you.
-	Pathetic.#demon #demonColor
+	Pathetic #demon #demonColor
 	“Shut up”
 	Mr Shuttler: Excuse me? #Shuttler
 ***"I mean, I'm sorry."
 ->sorry
 ***"You heard me."
 ->you_heard_me
+
 
 
 

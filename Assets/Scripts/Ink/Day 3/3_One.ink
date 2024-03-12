@@ -1,3 +1,4 @@
+
 ->start_here
 
 ===start_here===
@@ -26,7 +27,7 @@ Mr. Shuttler: Take your seat. Don’t make a habit of this, agreed? Shuttler
 You take your seat and relax for the first time since getting up this morning.
 Pathetic #demon #demonColor
 Not today, Satan.
-That night when you slip into bed, you breath a sigh of relief before falling asleep.#room
+That night when you slip into bed, you breathe a sigh of relief before falling asleep.#room
 ->END
 
 ===go_shorter===
@@ -64,8 +65,9 @@ Mr. Shuttler: Take your seat. Don’t make a habit of this, agreed? #Shuttler
 You take your seat and relax for the first time since getting up this morning.
 Pathetic #demon #demonColor
 Not today, Satan. 
-That night when you slip into bed, you breath a sigh of relief before falling asleep.#room
+That night when you slip into bed, you breathe a sigh of relief before falling asleep.#room
 ->END
+
 
 
 

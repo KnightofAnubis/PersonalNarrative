@@ -15,7 +15,7 @@ You look around confused as to who would say that to you, but there is no one in
 ->friends
 ===look_around===
 You look around your room and find the window open, letting in a soft breeze. You don't remember leaving it open.
-You get up and close it shaking you head in confusion before heading to school. 
+You get up and close it shaking your head in confusion before heading to school. 
 You see a group of your friends waiting in front of the school.#school
 ***Head over to them 
 -> friends
@@ -34,14 +34,14 @@ Brandon: Yeah, not to be rude but you look like crap.#Brandon
 
 ===not_sleeping===
 
-Adrian: Aw, thats too bad. #Adrian
-Brandon: Yeah, really sucks with that history test today.#Brandon
+Adrian: Aw, that's too bad. #Adrian
+Brandon: Yeah, it really sucks with that history test today.#Brandon
 
 ->test
 ===crap===
 
 Brandon: Damn. #Brandon
-Adrian: Well, lets head in, we got that test today.#Adrian
+Adrian: Well, let's head in, we got that test today.#Adrian
 ->test
 ===ignore===
 "How are you guys?" 
